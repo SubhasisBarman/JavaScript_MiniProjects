@@ -1,0 +1,69 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+@keyframes fadeIntext {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#congratsMsg {
+    margin-top: 5px;
+    font-size: 20px;
+    animation: fadeIntext 10s infinite;
+    color: rgb(21, 7, 211);
+    font-weight: bold;
+    display: none;
+}
+
+.Newgame,
+.Resetgame {
+    margin-top: auto;
+    background-color: yellow;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.Resetgame {
+    display: none;
+}
+
+.container {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 5px;
+    width: 175px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 55px;
+    width: 55px;
+    background-color: darksalmon;
+    border: none;
+    border-radius: 10px;
+    color: yellow;
+    font-size: 25px;
+}
+
+.box:hover {
+    background-color: rgb(232, 139, 108);
+    border-radius: 11px;
+
+}
