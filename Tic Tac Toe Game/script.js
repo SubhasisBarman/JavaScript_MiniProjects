@@ -72,15 +72,4 @@ Newgamebtn.addEventListener('click', reSetgame);
 Resetgamebtn.addEventListener('click', reSetgame);
 
 
-//FireWorks
-$('.FireWorks').fireworks({
 
-    sound: true,
-
-    opacity: 0.9,
-
-    width: '100%',
-
-    height: '100%'
-
-});
